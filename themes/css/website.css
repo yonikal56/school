@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* ======================================
+Created by Jonathan Calinsky (http://rondo-sys.co.il).
+© All rights reserved 2016.
+====================================== */
+
+.clr{
+	clear: both;
+}
+
+.navbar-fixed-bottom {
+	text-align: center;
+    border-top: 1px solid black;
+	position: none !important;
+}
+
+/*ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: inline-block;
+}*/
+
+/*.dropdown-menu:hover > ul.nav {
+    border-color: #eee #eee #ddd;
+}*/
+
+.carousel {
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+    height: 250px;
+}
+
+.nav {
+    padding-right: 0;
+    padding-left: none;
+}
+
+.dropdown-menu {
+    padding: 0;
+    right: 0;
+    left: none;
+    text-align: right;
+}
+
+.nav-stacked .dropdown-menu {
+    right: 157px;
+    left: none;
+    text-align: right;
+    float: right;
+    top: 0;
+}
+
+.nav-stacked .dropdown-menu a {
+    padding: 8px;
+}
+
+.dropdown-menu ul {
+    top: 0px;
+    right: 157px;
+}
+
+.nav-tabs>li {
+    float: right;
+}
+
+.rsidebar {
+    padding: 0;
+}
+
+.contentSpace {
+    padding: 10px !important;
+    box-sizing: border-box;
+	margin: 0 auto;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+    background-color: #FFFFFF;
+}
+
+.dates-wrapper {
+    color: #777;
+}
+
+.alert:empty {
+    display: none;
+}
+
+.logo, .dates-wrapper {
+    padding: 0;
+}
+
+.lsidebar {
+    padding-left: 0;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.login_form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.login_form input {
+    margin: 7px 0;
+}
+
+input[type="submit"], .btn-add {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    width: 150px;
+}
+
+.btn-add {
+    width: 75px !important;
+}
+
+th {
+    text-align: right;
+}
+
+.choose-table-form {
+    text-align: left;
+    direction: ltr;
+}
+
+.from_to_desc {
+    display: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.open_from_to {
+    cursor: pointer;
+}
+
+@keyframes moving {
+    from {top: 200px;}
+    to {top: -700px;}
+}
+@-webkit-keyframes moving {
+    from {top: 200px;}
+    to {top: -700px;}
+}
+
+.notice_item {
+    animation: moving 15s linear infinite; 
+    -webkit-animation: moving 15s linear infinite; 
+    position:relative;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.notices {
+    height: 200px;
+    overflow: hidden;
+}
+
+.notices:hover > .notice_item {
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.gallery_image_div input {
+    width: 82%;
+    float: right;
+}
+
+.gallery_image_div span {
+    display: block;
+    float: left;
+    width: 18%;
+}
+
+.gallery_image_div {
+    margin: 5px 0;
+    clear: both;
+}
+
+.gallery_image_div .remove_gallery_image {
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding: 6px 0;
+}
+
+.gallery_image_div .add_gallery_image {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 6px 0;
+}
